@@ -1,0 +1,12 @@
+{
+  "name": "cawa/sample-app",
+  "authors": [
+    "tchiotludo"
+  ],
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cawa-module-swagger-server": "./vendor/cawaphp/module-swagger-server/bower.json"
+  }
+}

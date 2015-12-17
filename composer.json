@@ -1,0 +1,27 @@
+{
+    "name": "cawaphp/sample-app",
+    "description": "Сáша sample-app",
+    "keywords": ["cawa", "sample-app"],
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tchiotludo"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SampleApp\\": "src"
+        }
+    },
+    "require": {
+        "php": "~7.0",
+        "cawaphp/cawa" : "dev-master",
+        "cawaphp/module-clockwork" : "dev-master",
+        "cawaphp/module-swagger-server" : "dev-master"
+    },
+    "require-dev": {
+
+    }
+}
